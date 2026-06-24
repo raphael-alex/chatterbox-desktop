@@ -42,6 +42,12 @@
     ],
     "macOS": {
       "minimumSystemVersion": "10.15"
+    },
+    "resources": {
+      "../python_ipc_server.py": "python_ipc_server.py",
+      "../.env": ".env",
+      "../../chatterbox/chatterbox": "chatterbox",
+      "../../chatterbox/config.yaml": "config.yaml"
     }
   }
 }

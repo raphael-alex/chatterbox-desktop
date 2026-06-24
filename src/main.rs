@@ -1,13 +1,9 @@
 mod app;
 
-use app::*;
-use leptos::prelude::*;
+use app::App;
+use dioxus::prelude::*;
 
 fn main() {
     console_error_panic_hook::set_once();
-    mount_to_body(|| {
-        view! {
-            <App/>
-        }
-    })
+    dioxus::launch(App);
 }

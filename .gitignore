@@ -1,3 +1,7 @@
 /dist/
 /target/
 /Cargo.lock
+/reasonix.toml
+/.opencode/
+/openspec/
+

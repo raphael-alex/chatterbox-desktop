@@ -16,7 +16,6 @@ body {
   height: 100vh;
 }
 
-/* Header */
 .header {
   background-color: #2563eb;
   color: white;
@@ -81,7 +80,6 @@ body {
   cursor: not-allowed;
 }
 
-/* Warning Banner */
 .warning-banner {
   background: #fef3c7;
   border-bottom: 1px solid #fcd34d;
@@ -90,7 +88,6 @@ body {
   color: #92400e;
 }
 
-/* Messages */
 .messages {
   flex: 1;
   overflow-y: auto;
@@ -163,7 +160,6 @@ body {
   border-radius: 20px;
 }
 
-/* Loading */
 .loading {
   display: flex;
   align-items: center;
@@ -187,7 +183,6 @@ body {
   40% { transform: scale(1); }
 }
 
-/* Input Area */
 .input-area {
   background: white;
   border-top: 1px solid #e5e7eb;
@@ -236,7 +231,6 @@ body {
   cursor: not-allowed;
 }
 
-/* Voice Mode */
 .voice-mode {
   display: flex;
   flex-direction: column;
@@ -277,7 +271,6 @@ body {
   color: #6b7280;
 }
 
-/* Initial loading state */
 .connecting {
   display: flex;
   flex-direction: column;
